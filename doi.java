@@ -8,3 +8,4 @@ public class NumberDigits {
   }
 System.out.println("Number of digits: " + count);
     }
+}
