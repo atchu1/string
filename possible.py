@@ -5,4 +5,4 @@ if len(s)==1 and s[i] in r:
  break
 if r[i]!=s[i]:
  t=t+1
-print(t)
+ print(t)
