@@ -1,13 +1,3 @@
-def sumOfAP( a, d,n) : 
-    sum = 0
-    i = 0
-    while i < n : 
-        sum = sum + a 
-        a = a + d 
-        i = i + 1
-    return sum
-    
-n = 3
-a = 1
-d = 1
-print (sumOfAP(a, d, n)) 
+u,v,d=map(int,input().split())
+vc=(u/2)*(2*v+(u-1)*d)
+print(int(vc))
