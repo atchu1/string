@@ -1,8 +1,8 @@
-nums = [2,1,3]
-nums.sort()
-length = len(nums)
-if (length % 2 == 0):
-    median = (nums[(length)//2] + nums[(length)//2-1]) / 2
-else:
-    median = nums[(length-1)//2]
-print(median)
+def median(p):
+      q=sorted(p)
+      return q[(len(p)//2)]
+r=int(input())
+p=input()
+p=p.split(" ")
+p=list(map(int,p))
+print(median(p))
