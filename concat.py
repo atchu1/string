@@ -1,5 +1,2 @@
-
-s1="hello"
-s2="world"
-str=s1+s2
-print(str)
+s1,s2=input().split()
+print(s1+s2)
