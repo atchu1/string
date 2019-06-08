@@ -1,3 +1,4 @@
-str1=input("enter string:")
-n=input("enter no-of repeated times:")
-print(str1*int(n))
+str1,n=input().split()
+n=int(n)
+for i in range(n):
+    print(str1)
