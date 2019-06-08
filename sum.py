@@ -1,4 +1,3 @@
-n1=int(input("Enter the 1number:"))
-n2=int(input("Enter the 2 number:"))
-sum=n1+n2
-print(sum)
+n1=int(input())
+n2=int(input()
+print(n1+n2)
