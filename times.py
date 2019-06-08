@@ -1,3 +1,3 @@
-str=input("enter string:")
+str1=input("enter string:")
 n=input("enter no-of repeated times:")
-print(str*int(n))
+print(str1*int(n))
