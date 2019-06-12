@@ -1,10 +1,10 @@
 c=int (input())
-a=0
+a1=0
 while c!=0:
 b=c%10
  c=c//10
- a=(a*10)+b
-c=a
+ a1=(a1*10)+b
+c=a1
 while c!=0:
  b=c%10
  c=c//10
